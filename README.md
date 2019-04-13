@@ -1,8 +1,12 @@
 # Spring-Docker-Haproxy
 
-[DockerHubHesabım](https://hub.docker.com/u/oguzhalitt)
+[DockerHubHesabım](https://hub.docker.com/u/oguzhalitt) <h6>
 
 <h6> sudo docker-compose up <h6>
+  
+[localhost:9000](http://localhost:9000) de static<h6>
+ 
+[localhost:9000/ui](http://localhost:9000/ui)'de ui kısmı çalışır vaziyette olucaktır.<h6>
   
  ###  KULLANDIGIM KAYNAKLAR
 
