@@ -1,0 +1,23 @@
+version: "3"
+services:
+  static:
+      image: oguzhalitt/spring-static-son
+      container_name: spring-static
+      ports:
+       - 9001:9001
+
+  ui:
+      image: oguzhalitt/spring-ui-son
+      container_name: spring-ui
+      ports:
+        - 9002:9002
+      
+  proxy:
+      image: haproxy
+      ports:
+       - 9000:9000
+      volumes:
+       - "./haproxy/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg"
+
+
+      
